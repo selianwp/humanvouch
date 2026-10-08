@@ -12,8 +12,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build",
+    "dev": "node api.js && turbo dev",
+    "build": "node api.js && turbo build",
     "test": "turbo test"
   },
   "devDependencies": {
