@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bash scripts/build.sh",
+    "build": "node init && bash scripts/build.sh",
     "test": "vitest run",
     "test:watch": "vitest"
   },
